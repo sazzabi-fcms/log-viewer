@@ -1,5 +1,5 @@
 <template>
-    <div class="p-6 max-w-5xl mx-auto">
+    <div class="p-6 max-w-screen mx-auto">
         <h1 class="text-2xl font-bold mb-4">Analyseur de logs JSON Lines</h1>
         <LogUploader/>
         <div v-if="store.raw.length">
